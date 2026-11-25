@@ -1,4 +1,4 @@
-﻿# Microsoft AI PM Prompting Skills
+# Product Management AI Prompting Skills
 
 ## Overview
 
@@ -62,12 +62,12 @@ For Claude Code, Antigravity, Codex, Cursor, Gemini CLI and similar tools. Needs
 2. Paste it in a terminal, or give it to your agent and say "run this".
 3. Restart your agent (close it and open it again) so it loads the new skills.
 
-| Your agent                 | Command                                                                                |
-| -------------------------- | -------------------------------------------------------------------------------------- |
-| Claude Code                | `npx skills add mzoelfakar/ms-ai-pm-prompting-skills --skill '*' -g -y -a claude-code` |
-| Antigravity                | `npx skills add mzoelfakar/ms-ai-pm-prompting-skills --skill '*' -g -y -a antigravity` |
-| Codex                      | `npx skills add mzoelfakar/ms-ai-pm-prompting-skills --skill '*' -g -y -a codex`       |
-| Cursor, Gemini CLI, others | `npx skills add mzoelfakar/ms-ai-pm-prompting-skills --skill '*' -g -y`                |
+| Your agent                 | Command                                                                             |
+| -------------------------- | ----------------------------------------------------------------------------------- |
+| Claude Code                | `npx skills add mzoelfakar/pm-ai-prompting-skills --skill '*' -g -y -a claude-code` |
+| Antigravity                | `npx skills add mzoelfakar/pm-ai-prompting-skills --skill '*' -g -y -a antigravity` |
+| Codex                      | `npx skills add mzoelfakar/pm-ai-prompting-skills --skill '*' -g -y -a codex`       |
+| Cursor, Gemini CLI, others | `npx skills add mzoelfakar/pm-ai-prompting-skills --skill '*' -g -y`                |
 
 If the skills do not show up after restarting, run the command from your agent's own row instead of the last one.
 
