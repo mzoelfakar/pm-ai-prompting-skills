@@ -69,8 +69,6 @@ For Claude Code, Antigravity, Codex, Cursor, Gemini CLI and similar tools. Needs
 | Codex                      | `npx skills add mzoelfakar/pm-ai-prompting-skills --skill '*' -g -y -a codex`       |
 | Cursor, Gemini CLI, others | `npx skills add mzoelfakar/pm-ai-prompting-skills --skill '*' -g -y`                |
 
-If the skills do not show up after restarting, run the command from your agent's own row instead of the last one.
-
 This does not touch your Claude or ChatGPT web accounts. Use Option 1 for those.
 
 ## Credits
