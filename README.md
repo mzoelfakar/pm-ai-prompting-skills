@@ -14,7 +14,7 @@ Install the skills once, then mention your product in chat. The assistant follow
 
 * **Output** appears in the chat. Files (Word, Excel, PowerPoint) are only created when you ask.
 
-Works with any assistant that supports `SKILL.md` skills (Claude, ChatGPT, Claude Code, Codex, Cursor and more).
+**Works with any assistant that supports `SKILL.md` skills** (Claude, ChatGPT, Claude Code, Codex, Cursor and more).
 
 ## Skills
 
