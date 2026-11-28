@@ -60,11 +60,13 @@ Dataset snapshot: n responses, fields used, segmentation fields found.
 | Theme | Concern or Praise | % of responses | Most notable references |
 | --- | --- | --- | --- |
 (Top main concerns and praises with percentages, descending. Notable references are short quotes taken from the feedback.)
+[Chart 1: see Charts]
 
 ### 2. Numeric Quantitative Feedback
 Overall averages for each metric, then one table per available segmentation technique:
 | Segment | n | [Metric 1] avg | [Metric 2] avg | ... |
 | --- | --- | --- | --- | --- |
+[Chart 2: see Charts]
 
 ### 3. Segments Expressing Challenges and Positives Most
 | Segment | Challenge or Positive | Share of the segment | Types of challenges or positives |
@@ -82,10 +84,21 @@ Overall averages for each metric, then one table per available segmentation tech
 (Specific, with the next step and how success will be measured.)
 
 ## Data for Visualization
-(Chart-ready tables with a suggested chart type for each: label and value columns, already sorted. Draw charts inline only if a charting tool is available. Do not create files unless asked.)
+(Chart-ready tables, each with a suggested chart type, for any data not already charted above: label and value columns, already sorted.)
 ```
 
 If the instructions' source links were used for outside benchmarks, list them under a final `## Sources` heading. Otherwise omit it.
+
+## Charts
+
+Add 1 or 2 clear charts that show the most notable data in the report (never more than 2).
+
+- **Pick the story.** Chart the numbers that matter most: the biggest gap, the top share, the clearest trend or the sharpest trade-off. Use only numbers that appear in the report and label estimates as estimates. If the report has no comparable numbers, skip the charts without comment.
+- **Pick the type.** Bar for comparing categories or ranking items (sorted high to low, horizontal when labels are long). Line for change over time. Pie or donut for the share of a whole (5 slices at most, only when the shares add up to 100%). Scatter for two measures per item, such as value against effort.
+- **Make it readable.** A title, labelled axes with units, values shown on the bars or points, a legend only when there is more than one series, and one italic line under the chart stating the takeaway.
+- **Draw it inline** with whatever chart or visual tool the assistant has (a native chart tool, an inline visual tool, or code that renders an image). If there is none, show a text bar chart instead: a small table with a bar made of block characters (for example `████████ 42%`). Do not create a file unless asked.
+- **Placement.** This report has no Executive Summary, so each chart sits directly under the data it shows. Chart 1: the top concerns and praises as a bar chart (percentages, descending, concerns and praises in different colors), under the table in `### 1. Text Qualitative Feedback`. Chart 2: a bar chart of the metric with the widest gap between segments, under the matching table in `### 2. Numeric Quantitative Feedback`. Do not repeat a drawn chart in `## Data for Visualization`.
+- Charts are additions inside existing sections. Do not add or rename headings.
 
 ## Research and sources
 

@@ -1,6 +1,6 @@
 ---
 name: product-strategy
-description: "Assess whether a product's value proposition supports its business goals, following the Microsoft AI PM Product Strategy template: Vision Statement, Business goals, SMART Business objectives, Product strategy, Target Market (demographics, psychographics, needs), a storytelling Value Proposition and Alignment with Business Goals, backed by market and competitive research, a 2-3 sentence data-driven summary and sources. Use whenever the user shares or describes a product strategy, vision, goals or value proposition and wants it reviewed, validated, sharpened, aligned to business goals, or turned into a strategy document."
+description: "Assess whether a product's value proposition supports its business goals, following the Product Strategy template: Vision Statement, Business goals, SMART Business objectives, Product strategy, Target Market (demographics, psychographics, needs), a storytelling Value Proposition and Alignment with Business Goals, backed by market and competitive research, a 2-3 sentence data-driven summary and sources. Use whenever the user shares or describes a product strategy, vision, goals or value proposition and wants it reviewed, validated, sharpened, aligned to business goals, or turned into a strategy document."
 ---
 
 # Product Strategy (Value Proposition vs. Business Goals)
@@ -76,6 +76,7 @@ Template notes (guidance for you, do not print). These are the template's own hi
 
 ## Market and Competitive Research
 (Addition required by the instructions. Top competitors and trends, only what a product manager needs, quantified, with the implication for this strategy.)
+[Chart: see Charts]
 
 ## Summary
 (Addition required by the instructions. A paragraph of 2-3 sentences with data-driven insights.)
@@ -84,6 +85,17 @@ Template notes (guidance for you, do not print). These are the template's own hi
 ```
 
 Verdict values: Supports, Partially supports, Does not support. After the table, add the one or two changes to the value proposition or objectives that would most improve alignment.
+
+## Charts
+
+Add 1 or 2 clear charts that show the most notable data in the report (never more than 2).
+
+- **Pick the story.** Chart the numbers that matter most: the biggest gap, the top share, the clearest trend or the sharpest trade-off. Use only numbers that appear in the report and label estimates as estimates. If the report has no comparable numbers, skip the charts without comment.
+- **Pick the type.** Bar for comparing categories or ranking items (sorted high to low, horizontal when labels are long). Line for change over time. Pie or donut for the share of a whole (5 slices at most, only when the shares add up to 100%). Scatter for two measures per item, such as value against effort.
+- **Make it readable.** A title, labelled axes with units, values shown on the bars or points, a legend only when there is more than one series, and one italic line under the chart stating the takeaway.
+- **Draw it inline** with whatever chart or visual tool the assistant has (a native chart tool, an inline visual tool, or code that renders an image). If there is none, show a text bar chart instead: a small table with a bar made of block characters (for example `████████ 42%`). Do not create a file unless asked.
+- **Placement.** This report has no Executive Summary, so place the chart directly under the text of `## Market and Competitive Research`, where the numbers come from. Good candidates: market size or growth over time (line), competitors share or price (bar). Draw it only if the research produced comparable numbers. A second chart is allowed only if a second set of numbers is just as notable.
+- Charts are additions inside existing sections. Do not add or rename headings.
 
 ## Research and sources
 

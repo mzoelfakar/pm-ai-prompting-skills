@@ -1,6 +1,6 @@
 ---
 name: enterprise-buyer-persona-development
-description: "Analyze an attached enterprise customer dataset and build the top 3 buyer personas as a product manager: ranked concerns and software usage with percentages, metric averages overall and per job role, which roles face the most challenges and which hold buying power, then three personas in the Microsoft AI PM Buyer persona template (Persona, Company Profile, Areas of Interest, Goals, Responsibilities, Purchasing Power, Pain Points) plus a side-by-side comparison and 2-3 user stories each. Use whenever the user shares buyer research, survey or CRM data and asks for buyer personas, decision-maker profiles, ideal customer personas or user stories."
+description: "Analyze an attached enterprise customer dataset and build the top 3 buyer personas as a product manager: ranked concerns and software usage with percentages, metric averages overall and per job role, which roles face the most challenges and which hold buying power, then three personas in the Buyer persona template (Persona, Company Profile, Areas of Interest, Goals, Responsibilities, Purchasing Power, Pain Points) plus a side-by-side comparison and 2-3 user stories each. Use whenever the user shares buyer research, survey or CRM data and asks for buyer personas, decision-maker profiles, ideal customer personas or user stories."
 ---
 
 # Enterprise Buyer Persona Development
@@ -88,6 +88,7 @@ Dataset snapshot: n respondents, fields used.
 | Concern | % of respondents |
 | --- | --- |
 (descending)
+[Chart 1: see Charts]
 ### Main Technological Software Used
 | Software | % of respondents |
 | --- | --- |
@@ -103,6 +104,7 @@ Dataset snapshot: n respondents, fields used.
 | --- | --- | --- |
 ### Buying Decision Makers
 (The role holding the highest percentage of buying decision makers, with the percentage and a short table of all roles.)
+[Chart 2: see Charts]
 
 ## Buyer Personas
 (Top 3 influential buying decision makers, ranked.)
@@ -140,7 +142,7 @@ Dataset snapshot: n respondents, fields used.
 (Insights as a product manager would draw them, then actionable recommendations.)
 
 ## Data for Visualization
-(Chart-ready tables with a suggested chart type each. Draw charts inline only if a charting tool is available.)
+(Chart-ready tables, each with a suggested chart type, for any data not already charted above.)
 ```
 
 ## If the person wants the template file
@@ -148,6 +150,17 @@ Dataset snapshot: n respondents, fields used.
 Only when they ask for a file. If they attach their own copy of the template, fill that file in place. If no copy is attached, rebuild the template from `references/buyer-persona-template-description.md` (geometry, colors and text of both slides), then fill it. Read the pptx skill first if it is available.
 
 Duplicate slide 1 once per persona (three persona slides), fill each box from that persona's block, then fill the comparison slide last. The hint text boxes are small, so enlarge them to the inside of their rectangles and use 10 to 11 pt text. The original avatar pictures are not reproduced: use a simple circle with the persona's initials. Render the slides to images and check for overflow before sharing.
+
+## Charts
+
+Add 1 or 2 clear charts that show the most notable data in the report (never more than 2).
+
+- **Pick the story.** Chart the numbers that matter most: the biggest gap, the top share, the clearest trend or the sharpest trade-off. Use only numbers that appear in the report and label estimates as estimates. If the report has no comparable numbers, skip the charts without comment.
+- **Pick the type.** Bar for comparing categories or ranking items (sorted high to low, horizontal when labels are long). Line for change over time. Pie or donut for the share of a whole (5 slices at most, only when the shares add up to 100%). Scatter for two measures per item, such as value against effort.
+- **Make it readable.** A title, labelled axes with units, values shown on the bars or points, a legend only when there is more than one series, and one italic line under the chart stating the takeaway.
+- **Draw it inline** with whatever chart or visual tool the assistant has (a native chart tool, an inline visual tool, or code that renders an image). If there is none, show a text bar chart instead: a small table with a bar made of block characters (for example `████████ 42%`). Do not create a file unless asked.
+- **Placement.** This report has no Executive Summary, so each chart sits directly under the data it shows in `## Key Findings`. By default: Chart 1 is the main concerns as a bar chart under the `### Main Concerns` table, and Chart 2 is the share of buying decision makers by role as a bar chart under `### Buying Decision Makers`. Swap in the software usage or the challenges by role if that tells a sharper story. Do not repeat a drawn chart in `## Data for Visualization`.
+- Charts are additions inside existing sections. Do not add or rename headings.
 
 ## Research and sources
 

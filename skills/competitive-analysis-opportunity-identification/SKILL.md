@@ -1,6 +1,6 @@
 ---
 name: competitive-analysis-opportunity-identification
-description: "Rapid product-manager competitive analysis using the Microsoft AI PM template set: Competitive Analysis table, Feature set Analysis, SWOT, Porter's Five Forces and Opportunity Identification (gaps, top 3 opportunities, prioritization), opened by an executive summary and closed with SMART recommendations, strategic partnerships and sources. Use whenever the user asks to analyze competitors, compare products or rivals, map the competitive landscape, run a SWOT or Porter's Five Forces, find feature or market gaps, or identify opportunities, even if they only name a product and ask who the competitors are."
+description: "Rapid product-manager competitive analysis using the template set: Competitive Analysis table, Feature set Analysis, SWOT, Porter's Five Forces and Opportunity Identification (gaps, top 3 opportunities, prioritization), opened by an executive summary and closed with SMART recommendations, strategic partnerships and sources. Use whenever the user asks to analyze competitors, compare products or rivals, map the competitive landscape, run a SWOT or Porter's Five Forces, find feature or market gaps, or identify opportunities, even if they only name a product and ask who the competitors are."
 ---
 
 # Competitive Analysis & Opportunity Identification
@@ -58,6 +58,7 @@ Use exactly this order and these headings. Replace `Competitor A` to `Competitor
 
 ## Executive Summary
 (Very brief, data-driven, focused on ROI, scalability, efficiency, security and compliance, concluding with actionable insights and suggestions. Write it last, place it first.)
+[Chart 1, and optional Chart 2: see Charts]
 
 ## Key Market Considerations
 (Addition required by the instructions. Short bullets: the key market and its impact on product strategy.)
@@ -136,6 +137,17 @@ Prioritize the identified opportunities based on potential impact and feasibilit
 ```
 
 In the three opportunity blocks, write the real content under each bold label (the text shown above is the template's guidance, not the answer). Fill every cell. Justify figures and mark estimates as estimates.
+
+## Charts
+
+Add 1 or 2 clear charts that show the most notable data in the report (never more than 2).
+
+- **Pick the story.** Chart the numbers that matter most: the biggest gap, the top share, the clearest trend or the sharpest trade-off. Use only numbers that appear in the report and label estimates as estimates. If the report has no comparable numbers, skip the charts without comment.
+- **Pick the type.** Bar for comparing categories or ranking items (sorted high to low, horizontal when labels are long). Line for change over time. Pie or donut for the share of a whole (5 slices at most, only when the shares add up to 100%). Scatter for two measures per item, such as value against effort.
+- **Make it readable.** A title, labelled axes with units, values shown on the bars or points, a legend only when there is more than one series, and one italic line under the chart stating the takeaway.
+- **Draw it inline** with whatever chart or visual tool the assistant has (a native chart tool, an inline visual tool, or code that renders an image). If there is none, show a text bar chart instead: a small table with a bar made of block characters (for example `████████ 42%`). Do not create a file unless asked.
+- **Placement.** Place the charts directly under the Executive Summary text, before Key Market Considerations. Good candidates: market share by competitor (bar, or pie when the shares add up to 100%), pricing compared across competitors (bar), or the opportunities by impact against feasibility (scatter).
+- Charts are additions inside existing sections. Do not add or rename headings.
 
 ## Research and sources
 

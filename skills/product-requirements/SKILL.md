@@ -1,6 +1,6 @@
 ---
 name: product-requirements
-description: "Generate a complete product requirements package from product context, following the Microsoft AI PM prompt: user needs per user type, functional requirements grouped by feature (testable 'The system must allow...' and 'The system shall provide...' statements), measurable non-functional requirements by category, and the assumptions behind them. Use whenever the user asks for a PRD, product requirements, functional or non-functional requirements, user needs analysis, or shares a product background with goals, user types and features and wants requirements written."
+description: "Generate a complete product requirements package from product context, following the prompt: user needs per user type, functional requirements grouped by feature (testable 'The system must allow...' and 'The system shall provide...' statements), measurable non-functional requirements by category, and the assumptions behind them. Use whenever the user asks for a PRD, product requirements, functional or non-functional requirements, user needs analysis, or shares a product background with goals, user types and features and wants requirements written."
 ---
 
 # Product Requirements

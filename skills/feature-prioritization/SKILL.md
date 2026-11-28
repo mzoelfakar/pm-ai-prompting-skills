@@ -48,10 +48,12 @@ The original template defines the input, not the output layout, so use this layo
 | --- | --- | --- |
 | **High Value** | Quick Wins: [features] | Major Projects: [features] |
 | **Low Value** | Fill-Ins: [features] | Thankless Tasks: [features] |
+[Chart 1: see Charts]
 
 ## Prioritized Backlog
 | Rank | Feature | Business Value | Customer Needs | Technical Feasibility | Value (1-10) | Effort (1-10) | Quadrant | Justification |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+[Chart 2, optional: see Charts]
 
 ## Sources
 ```
@@ -62,6 +64,17 @@ Scoring rules:
 - Quantify wherever possible (users affected, revenue or retention impact, engineering weeks) and say whether each number is given, sourced or an estimate.
 - Rank Quick Wins first, then Major Projects, then Fill-Ins, with Thankless Tasks last (recommend deferring or dropping them). Within a quadrant, rank by Value divided by Effort.
 - If the timeframe or resources were not given, state the assumption you used in one line under the Summary.
+
+## Charts
+
+Add 1 or 2 clear charts that show the most notable data in the report (never more than 2).
+
+- **Pick the story.** Chart the numbers that matter most: the biggest gap, the top share, the clearest trend or the sharpest trade-off. Use only numbers that appear in the report and label estimates as estimates. If the report has no comparable numbers, skip the charts without comment.
+- **Pick the type.** Bar for comparing categories or ranking items (sorted high to low, horizontal when labels are long). Line for change over time. Pie or donut for the share of a whole (5 slices at most, only when the shares add up to 100%). Scatter for two measures per item, such as value against effort.
+- **Make it readable.** A title, labelled axes with units, values shown on the bars or points, a legend only when there is more than one series, and one italic line under the chart stating the takeaway.
+- **Draw it inline** with whatever chart or visual tool the assistant has (a native chart tool, an inline visual tool, or code that renders an image). If there is none, show a text bar chart instead: a small table with a bar made of block characters (for example `████████ 42%`). Do not create a file unless asked.
+- **Placement.** This report has no Executive Summary, so the charts sit with the data they show. Chart 1 (scatter, Value on the vertical axis and Effort on the horizontal axis, one labelled point per feature, quadrant lines at the midpoint) goes directly under the Value vs. Effort Matrix table. Chart 2 is optional and only for backlogs of more than 5 features: a bar chart of the top features by Value divided by Effort, directly under the Prioritized Backlog table.
+- Charts are additions inside existing sections. Do not add or rename headings.
 
 ## Research and sources
 

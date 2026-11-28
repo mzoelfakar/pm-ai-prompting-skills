@@ -1,6 +1,6 @@
 # Buyer persona template, full description
 
-This describes the two-slide Buyer persona template from the Microsoft AI Product Manager Professional Certificate closely enough to rebuild it from scratch (for example with pptxgenjs) or to recognise and fill a copy the person attaches. Sizes are in inches, colors are hex RGB. Slide size is 13.33 x 7.5 (16:9), blank layout, both slides.
+This describes the two-slide Buyer persona template so you can build it from scratch (for example with pptxgenjs) or recognise and fill a copy the person attaches. Sizes are in inches, colors are hex RGB. Slide size is 13.33 x 7.5 (16:9), blank layout, both slides.
 
 ## Contents
 

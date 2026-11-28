@@ -1,6 +1,6 @@
 # Roadmap template, full description
 
-This describes the 12-month Product Roadmap template from the Microsoft AI Product Manager Professional Certificate closely enough to rebuild it from scratch (for example with openpyxl) or to recognise and edit a copy the person attaches. Colors are hex RGB. Column letters and row numbers are for a single sheet named `Sheet1` (used range `A1:AA232`).
+This describes the 12-month Product Roadmap template so you can build it from scratch (for example with openpyxl) or recognise and edit a copy the person attaches. Colors are hex RGB. Column letters and row numbers are for a single sheet named `Sheet1` (used range `A1:AA232`).
 
 ## Contents
 

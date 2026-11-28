@@ -1,6 +1,6 @@
 ---
 name: product-development-process-outline
-description: "Create the high-level Product Development Process Outline for a software product using the Microsoft AI PM template: an Executive Summary and six stages (Idea Generation and Conceptualization, Planning and Requirement Analysis, Development and Design, Testing and Quality Assurance, Deployment and Release, Maintenance and Support), each with Objective, Description, Key Activities, Key Considerations and Microsoft Tools Integration and Support. Use whenever the user asks to define, outline or document a development process, SDLC, product lifecycle or delivery approach, or to align the dev team and stakeholders on how a product will be built."
+description: "Create the high-level Product Development Process Outline for a software product using the template: an Executive Summary and six stages (Idea Generation and Conceptualization, Planning and Requirement Analysis, Development and Design, Testing and Quality Assurance, Deployment and Release, Maintenance and Support), each with Objective, Description, Key Activities, Key Considerations and Microsoft Tools Integration and Support. Use whenever the user asks to define, outline or document a development process, SDLC, product lifecycle or delivery approach, or to align the dev team and stakeholders on how a product will be built."
 ---
 
 # Product Development Process Outline

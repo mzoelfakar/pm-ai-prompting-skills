@@ -1,6 +1,6 @@
 ---
 name: release-scope-plan
-description: "Create a simplified, high-level release scope plan from product context and features, using the Microsoft AI PM template: Release Overview, Scope Inclusions, Scope Exclusions, Non-functional Requirements, and Dependencies and Contingencies, built around key milestones, stakeholder involvement, security and compliance checkpoints and integration points. Use whenever the user asks for a release plan, release scope, launch plan, go-live readiness, what is in or out of a release, or milestones and stakeholders for taking features from development to launch."
+description: "Create a simplified, high-level release scope plan from product context and features, using the template: Release Overview, Scope Inclusions, Scope Exclusions, Non-functional Requirements, and Dependencies and Contingencies, built around key milestones, stakeholder involvement, security and compliance checkpoints and integration points. Use whenever the user asks for a release plan, release scope, launch plan, go-live readiness, what is in or out of a release, or milestones and stakeholders for taking features from development to launch."
 ---
 
 # Release Scope Plan
