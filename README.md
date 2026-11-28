@@ -4,7 +4,7 @@
 
 **10 ready-to-use skills for common product management tasks gathered from some frameworks shared within the [Microsoft AI Product Manager Certificate](https://www.coursera.org/professional-certificates/microsoft-ai-product-manager) training.**
 
-Install the skills once, then mention your product in chat. The assistant follows the instructions and produces **output in the defined structure (tables, charts and sections).**
+Install the skills once, then mention your product in chat. The assistant follows the instructions and produces **structured outputs (tables, charts and sections).**
 
 * **Automatic trigger:** just ask for the task, for example "run a competitive analysis for my app".
 
